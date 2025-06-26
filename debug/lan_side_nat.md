@@ -12,7 +12,9 @@ This command displays the configured LAN-side Network Address Translation (NAT) 
 ```
 example_com:velocli> debug --lan_side_nat
 ====================== Source or Destination NAT ====================
-Type   Segment ID  Inside Cidr IP  Outside Cidr IP  Source Route  Destination Route  Identity  Force PAT  Hits
+Type     Segment ID  Inside Cidr IP  Outside Cidr IP  Source Route  Destination Route  Identity  Force PAT  Hits
+source            0   172.30.1.0/24      10.0.0.0/24           N/A                any         0       None     0
+
 
 ====================== Source and Destination NAT ====================
 Segment ID   SrcInsideIp  SrcOutsideIp  DestInsideIp  DestOutsideIp  Identity  Force PAT  Hits
